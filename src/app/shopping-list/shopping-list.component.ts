@@ -2,19 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-shopping-list',
-  template: `
-    <p>
-      shopping-list works!
-    </p>
-  `,
-  styles: [
-  ]
+  template: ` <h2>shopping-list works!</h2> `,
+  styles: [],
 })
 export class ShoppingListComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

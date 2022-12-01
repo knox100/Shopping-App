@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-recipes-details',
+  selector: 'app-recipe-details',
   template: `
     <p>
-      recipes-details works!
+      recipe-details works!
     </p>
   `,
   styles: [
   ]
 })
-export class RecipesDetailsComponent implements OnInit {
+export class RecipeDetailsComponent implements OnInit {
 
   constructor() { }
 
